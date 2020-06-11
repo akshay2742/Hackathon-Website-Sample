@@ -1,0 +1,34 @@
+body{
+    background: #eee;
+    position: relative;
+}
+.section_spacing{
+    padding-top: 10px;
+}
+.section_height{
+    height: 600px;
+}
+#nav-image{
+    width: 5%;
+}
+#banner_span_text{
+    color: red;
+}
+.banner_title{
+    font-size: 80px;
+    font-weight: 600;
+    margin-top: 150px;
+}
+.banner_subtitle{
+    font-size: 40px;
+    font-weight: 300;
+}
+#about_image{
+    margin-top: 20px;
+    width: 120%;
+    border: 5px solid Gray;
+    
+}
+#about_content{
+    font-family: 'Fira Code', monospace;
+}
