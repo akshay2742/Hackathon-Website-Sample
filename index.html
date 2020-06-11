@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>hackcbs</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">-->
+  <link rel="stylesheet" href="assets/css/navbar.css">
+  <link rel="stylesheet" href="assets/libs/fontawesome/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!--NavBar-->
+    <section class="et-hero-tabs">
+        <div class="et-hero-tabs-container">
+            <img id="nav-image" src="assets/images/White_Final_Logo.PNG">
+            <a class="et-hero-tab" href="#banner">Home</a>
+            <a class="et-hero-tab" href="#about">About</a>
+            <a class="et-hero-tab" href="#about">Glimpses</a>
+            <a class="et-hero-tab" href="#about">Contact US</a>
+            <a class="et-hero-tab" href="#about">Other</a>
+            <span class="et-hero-tab-slider"></span>
+        </div>
+    </section>
+  <!-- Main -->
+  <main class="et-main">
+    <!-- Banner Section -->
+    <section class="section_height" id="banner">
+        <div class="container">
+            <div class='row'>
+                <div class="col-md-6">
+                    <h1 class="banner_title">hack<span id="banner_span_text">CBS</span></h1>
+                    <h2 class="banner_subtitle">India's Biggest Student Run<br>Hackathon</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section-->
+    <section class="section_spacing section_height" id="about">
+        <div class="container">
+            <h1 class="heading"><i class="fa fa-code" aria-hidden="true"></i> ABOUT</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <p id="about_content">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                </div>
+                <div class="col-md-4">
+                <img id="about_image" src="assets/images/backdrop.jpg">
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+   <script src="assets/js/three.r95.min.js"></script>
+   <script src="assets/js/vanta.globe.min.js"></script>
+   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+   <script src="assets/js/navbar.js"></script>
+   <script>
+       VANTA.GLOBE({
+           el: "#banner",
+           mouseControls: true,
+           touchControls: true,
+           minHeight: 600.00,
+           minWidth: 600.00,
+           scale: 1.00,
+           scaleMobile: 1.00,
+           color: 0x10703,
+           size: 1.20,
+           backgroundColor: 0x6493c8
+       })
+   </script>
+
+</body>
+</html>
