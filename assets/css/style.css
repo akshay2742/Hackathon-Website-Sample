@@ -8,21 +8,44 @@ body{
 .section_height{
     height: 600px;
 }
+#timer{
+  padding-right: 100px;
+}
+#countdown {
+  color: #eee;
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#countdown span {
+  display: block;
+  font-size: 4.5rem;
+}
+.fa-bookmark{
+    color: crimson;
+}
 .fa-code{
     color: crimson;
 }
 #nav-image{
     width: 5%;
+    z-index: 100;
 }
 #banner_span_text{
     color: red;
 }
 .banner_title{
+    color: #eee;
     font-size: 80px;
     font-weight: 600;
     margin-top: 150px;
 }
 .banner_subtitle{
+    color: #eee;
     font-size: 40px;
     font-weight: 300;
 }
@@ -31,19 +54,40 @@ body{
     font-size: 36px;
     font-weight: 700;
 }
-.heading_line{
-  bottom: 0;
-  width: 5px;
-  height: 8px;
-  background: #000;
+.heading_white{
+    color: #eee;
+    padding-left: 40px;
+    font-size: 36px;
+    font-weight: 700;
 }
+/*
 #about_image{
     margin-top: 20px;
     width: 120%;
     border: 5px solid Gray;
     
 }
+*/
 #about_content{
+    font-size: 18px;
     margin-top: 50px;
     font-family: 'Fira Code', monospace;
+}
+.parallax{
+    background-image: url("https://images.unsplash.com/photo-1517433456452-f9633a875f6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1489&q=80");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 90%;
+}
+#testimonial_content{
+    font-family: 'Fira Code', monospace;
+    color: #eee;
+    font-size: 15px;
+}
+#glimpses_image{
+    margin-top: 10px;
+    width: 100%;
+    border: 5px solid Gray;
 }

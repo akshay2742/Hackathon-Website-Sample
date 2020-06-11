@@ -21,7 +21,7 @@ a {
   position: relative;
   background: #eee;
   text-align: center;
-  padding: 35px 2em;
+  padding: 35px 1em;
 }
 .et-hero-tabs h1,
 .et-slide h1 {
@@ -65,13 +65,13 @@ a {
           justify-content: center;
   -webkit-box-align: center;
           align-items: center;
-  -webkit-box-flex: 1;
-          flex: 1;
+  -webkit-box-flex: 3;
+          flex: 3;
   color: #fff;
   letter-spacing: 0.1rem;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
-  font-size: 0.8rem;
+  font-size: 12px !important;
 }
 .et-hero-tab:hover {
   color: white;
