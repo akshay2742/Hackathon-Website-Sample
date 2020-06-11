@@ -27,7 +27,7 @@ body{
     font-weight: 300;
 }
 .heading{
-    padding-left: 30px;
+    padding-left: 40px;
     font-size: 36px;
     font-weight: 700;
 }
@@ -44,6 +44,6 @@ body{
     
 }
 #about_content{
-    margin-top: 20px;
+    margin-top: 50px;
     font-family: 'Fira Code', monospace;
 }
