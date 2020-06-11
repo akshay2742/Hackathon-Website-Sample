@@ -3,10 +3,13 @@ body{
     position: relative;
 }
 .section_spacing{
-    padding-top: 10px;
+    padding-top: 30px;
 }
 .section_height{
     height: 600px;
+}
+.fa-code{
+    color: crimson;
 }
 #nav-image{
     width: 5%;
@@ -23,6 +26,17 @@ body{
     font-size: 40px;
     font-weight: 300;
 }
+.heading{
+    padding-left: 30px;
+    font-size: 36px;
+    font-weight: 700;
+}
+.heading_line{
+  bottom: 0;
+  width: 5px;
+  height: 8px;
+  background: #000;
+}
 #about_image{
     margin-top: 20px;
     width: 120%;
@@ -30,5 +44,6 @@ body{
     
 }
 #about_content{
+    margin-top: 20px;
     font-family: 'Fira Code', monospace;
 }
