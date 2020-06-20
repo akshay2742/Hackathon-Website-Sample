@@ -1,0 +1,56 @@
+.theme_card {
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  -webkit-perspective: 1000px;
+          perspective: 1000px;
+}
+
+.front_theme, .back_theme {
+  position: absolute;
+  width: 300px;
+  height: 200px;
+  left: 20px;
+  top: 50px;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+  -webkit-transition: 1s;
+  transition: 1s;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  border-radius: 10px;
+}
+
+.front_theme {
+  background-color: #eee;
+}
+
+.back_theme {
+  background-color: #BDBDBD;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.card:hover .front_theme {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.card:hover .back_theme {
+  -webkit-transform: rotateY(360deg);
+          transform: rotateY(360deg);
+}
+.card_spacing{
+    margin-top: 150px;
+}
+.theme_icon{
+    width: 50%;
+    z-index: 1;
+}
+.theme_back_head{
+    font-family: 'Fira Code', monospace;
+}

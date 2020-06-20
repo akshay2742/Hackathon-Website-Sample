@@ -6,7 +6,13 @@ body{
     padding-top: 30px;
 }
 .section_height{
-    height: 600px;
+    height: 650px;
+}
+.section_height_webinar{
+    height: 900px;
+}
+.section_height_about{
+    height: 700px;
 }
 #timer{
   padding-right: 100px;
@@ -31,12 +37,21 @@ body{
 .fa-code{
     color: crimson;
 }
+.fa-user{
+    color: crimson;
+}
+.fa-university{
+    color: crimson;
+}
+.fa-globe{
+    color: crimson;
+}
 #nav-image{
     width: 5%;
     z-index: 100;
 }
 #banner_span_text{
-    color: red;
+    color: crimson;
 }
 .banner_title{
     color: #eee;
@@ -81,6 +96,9 @@ body{
     background-size: cover;
     opacity: 90%;
 }
+.fa-cogs{
+    color: crimson;
+}
 #testimonial_content{
     font-family: 'Fira Code', monospace;
     color: #eee;
@@ -90,4 +108,105 @@ body{
     margin-top: 10px;
     width: 100%;
     border: 5px solid Gray;
+}
+/* Webinar Button */
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #000;
+    background: #000;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	border-radius: 3;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+a.animated-button:link:after, a.animated-button:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 50%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+a.animated-button:link:hover, a.animated-button:visited:hover {
+	color: #FFF;
+	text-shadow: none;
+}
+a.animated-button:link:hover:after, a.animated-button:visited:hover:after {
+	height: 45%;
+}
+a.animated-button:link, a.animated-button:visited {
+	position: relative;
+	display: block;
+	margin: 7px auto 0;
+	padding: 14px 15px;
+	color: #fff;
+	font-size:14px;
+	border-radius: 3;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+a.animated-button.thar-three {
+	color: #fff;
+	cursor: pointer;
+	display: block;
+	position: relative;
+	border: 2px solid #000;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}
+a.animated-button.thar-three:hover {
+	color: #fff !important;
+	background-color: transparent;
+	text-shadow: nthree;
+    border: 2px solid crimson;
+}
+a.animated-button.thar-three:hover:before {
+	left: 0%;
+	right: auto;
+	width: 100%;
+}
+a.animated-button.thar-three:before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	color: #000 !important;
+	background: crimson;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}
+/* END */
+.telegram_widget{
+    overflow: hidden;
 }

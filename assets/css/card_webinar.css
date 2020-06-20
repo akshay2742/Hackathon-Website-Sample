@@ -1,0 +1,35 @@
+.box{
+    width: 80%;
+    height: 300px;
+    display: inline-block;
+    margin: 50px 10%;
+    box-shadow: 0 27px 87px rgba(0,0,0,0.37);
+    border-radius: 15px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+#webinar_image{
+    width: 100%;
+}
+.webinar_button{
+    width: 125px;
+    height: 40px;
+    border-radius: 15px;
+}
+#webinar_button{
+    margin-right: 10px;
+    width: 120px;
+    border-radius: 15px;
+    float: left;
+}
+#webinar_head_text{
+    font-size: 22px;
+    margin-top: 35px;
+}
+#webinar_para_text{
+    margin-right: 10px;
+    font-size: 15px;
+}
+#webinar_underline{
+    width: 6px;
+}
