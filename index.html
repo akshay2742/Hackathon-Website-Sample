@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>hackcbs</title>
+    <title>hackCBS 3.0</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
     <link rel="stylesheet" href="assets/css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
-    <!--  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">-->
     <link rel="stylesheet" href="assets/css/navbar.css">
     <link rel="stylesheet" href="assets/css/glimpses.css">
-    <link rel="stylesheet" href="assets/css/cards_webinar.css">
+    <link rel="stylesheet" href="assets/css/card_webinar.css">
+    <link rel="stylesheet" href="assets/css/theme_slider.css">
+    <link rel="stylesheet" href="assets/css/widgets.css">
     <link rel="stylesheet" href="assets/libs/fontawesome/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/hover_button.css">
 </head>
 
 <body>
@@ -26,6 +27,7 @@
             <a class="et-hero-tab" href="#about">About</a>
             <a class="et-hero-tab" href="#glimpses">Glimpses</a>
             <a class="et-hero-tab" href="#webinars">Webinars</a>
+            <a class="et-hero-tab" href="#themes">Themes</a>
             <span class="et-hero-tab-slider"></span>
         </div>
     </section>
@@ -54,7 +56,7 @@
             </div>
         </section>
         <!-- About Section-->
-        <section class="section_spacing section_height" id="about">
+        <section class="section_spacing section_height_about" id="about">
             <h3 class="heading"><i class="fa fa-code" aria-hidden="true"></i> ABOUT THE EVENT</h3>
             <div class="container">
                 <div class="row justify-content-center">
@@ -72,6 +74,48 @@
                             at the top while generating over 15,000 lines of code in the process of 24 hours, requiring more than 3000 cups of coffee to fuel the developers’ brains (Coffee’s on the house). But this time it’s gonna be different, ‘coz this
                             time it’s going to be even <b><i>grander</i></b>.
                         </p>
+                    </div>
+                </div>
+            </div>
+            <div class="widgets">
+                <div class="card-container">
+                    <div class="card">
+                        <div class="front">
+                            <span class="fa fa-user"></span>
+                        </div>
+                        <div class="back">User</div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="front">
+                            <span class="fa fa-cogs"></span>
+                        </div>
+                        <div class="back">Settings</div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="front">
+                            <span class="fa fa-code"></span>
+                        </div>
+                        <div class="back">Code</div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="front">
+                            <span class="fa fa-university"></span>
+                        </div>
+                        <div class="back">250 Colleges</div>
+                    </div>
+                </div>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="front">
+                            <span class="fa fa-globe"></span>
+                        </div>
+                        <div class="back">12 Countries</div>
                     </div>
                 </div>
             </div>
@@ -162,32 +206,154 @@
                 </div>
             </div>
         </section>
-        <section class="section_height section_spacing" id="webinars">
+        <section class="section_height_webinar section_spacing" id="webinars">
             <h3 class="heading"><i class="fa fa-code" aria-hidden="true"></i> WEBINARS</h3>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
-                        <div class="card profile-card-2">
-                            <div class="card-img-block">
-                                <img class="img-fluid" src="https://images.pexels.com/photos/870903/pexels-photo-870903.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="Card image cap">
+                    <div class="col-md-6">
+                        <div class="webinar_card">
+                            <div class="box">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <img id="webinar_image" src="assets/images/blockchain.jpg">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h1 id="webinar_head_text"><i class="fa fa-cogs" aria-hidden="true"></i> Blockchain</h1>
+                                        <p id="webinar_para_text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                        </p>                                      
+                                        <a id="webinar_button" href="#" class="animated-button thar-three">Register</a>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="card-body pt-5">
-                                <img src="https://randomuser.me/api/portraits/men/64.jpg" alt="profile-image" class="profile" />
-                                <h5 class="card-title">Landon Hunt</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <div class="icon-block"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"> <i class="fa fa-twitter"></i></a><a href="#"> <i class="fa fa-google-plus"></i></a></div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="webinar_card">
+                            <div class="box">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <img id="webinar_image" src="assets/images/blockchain.jpg">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h1 id="webinar_head_text"><i class="fa fa-cogs" aria-hidden="true"></i> Blockchain</h1>
+                                        <p id="webinar_para_text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                        </p>                                      
+                                        <a id="webinar_button" href="#" class="animated-button thar-three">Register</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                 <div class="row">
+                    <div class="col-md-6">
+                        <div class="webinar_card">
+                            <div class="box">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <img id="webinar_image" src="assets/images/blockchain.jpg">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h1 id="webinar_head_text"><i class="fa fa-cogs" aria-hidden="true"></i> Blockchain</h1>
+                                        <p id="webinar_para_text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                        </p>                                      
+                                        <a id="webinar_button" href="#" class="animated-button thar-three">Register</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="webinar_card">
+                            <div class="box">
+                                <div class="row">
+                                    <div class="col-md-7">
+                                        <img id="webinar_image" src="assets/images/blockchain.jpg">
+                                    </div>
+                                    <div class="col-md-5">
+                                        <h1 id="webinar_head_text"><i class="fa fa-cogs" aria-hidden="true"></i> Blockchain</h1>
+                                        <p id="webinar_para_text">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                                        </p>                                      
+                                        <a id="webinar_button" href="#" class="animated-button thar-three">Register</a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="section_height section_spacing parallax" id="themes">
+            <h3 class="heading_white"><i class="fa fa-code" aria-hidden="true"></i> THEMES</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card theme_card">
+                            <div class="front_theme"><img class="theme_icon" src="assets/images/blockchain.png"></div>
+                            <div class="back_theme"><h1 class="theme_back_head">Blockchain</h1></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card theme_card">
+                            <div class="front_theme"><img class="theme_icon" src="assets/images/help.png"></div>
+                            <div class="back_theme"><h1 class="theme_back_head">Social Issues</h1></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card theme_card">
+                            <div class="front_theme"><img class="theme_icon" src="assets/images/mobility.png"></div>
+                            <div class="back_theme"><h1 class="theme_back_head">Mobility</h1></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row card_spacing">
+                    <div class="col-md-4">
+                        <div class="card theme_card">
+                            <div class="front_theme"><img class="theme_icon" src="assets/images/cyber-attack.png"></div>
+                            <div class="back_theme"><h1 class="theme_back_head"><center>Cyber</center><br>Security</h1></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card theme_card">
+                            <div class="front_theme"><img class="theme_icon" src="assets/images/process.png"></div>
+                            <div class="back_theme"><h1 class="theme_back_head">Ed Tech</h1></div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card theme_card">
+                            <div class="front_theme"><img class="theme_icon" src="assets/images/payment.png"></div>
+                            <div class="back_theme"><h1 class="theme_back_head">Fin Tech</h1></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--BACK TO TOP BUTTON-->
+        <div class="m-backtotop" aria-hidden="true">
+            <div class="arrow">
+                <i class="fa fa-arrow-up"></i>
+            </div>
+            <div class="text">
+                Back to top
+            </div>
+        </div>
+        <!--end-->
+        <!--FLoating telegram Widget-->
+        <div class="elfsight-app-b4f4c1e4-c496-4e90-8366-4c2595311552 telegram_widget" aria-hidden="true"></div>
+        <!--end-->
     </main>
     <script src="assets/js/three.r95.min.js"></script>
     <script src="assets/js/vanta.globe.min.js"></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
     <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
     <script src="assets/js/navbar.js"></script>
+    <script src="assets/js/hover_button.js"></script>
+    <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+    <script src="assets/js/theme_slider.js"></script>
     <script>
         VANTA.GLOBE({
             el: "#banner",
@@ -215,9 +381,9 @@
                     distance = countDown - now;
 
                 document.getElementById('days').innerText = Math.floor(distance / (day)),
-                    document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
-                    document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
-                    document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
+                document.getElementById('hours').innerText = Math.floor((distance % (day)) / (hour)),
+                document.getElementById('minutes').innerText = Math.floor((distance % (hour)) / (minute)),
+                document.getElementById('seconds').innerText = Math.floor((distance % (minute)) / second);
 
                 //do something later when date is reached
                 //if (distance < 0) {
