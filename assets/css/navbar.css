@@ -1,6 +1,3 @@
-body {
-  font-family: "Century Gothic", 'Lato', sans-serif;
-}
 
 a {
   text-decoration: none !important;
@@ -48,9 +45,10 @@ a {
   height: 70px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   z-index: 10;
-  background: #000000;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */   
-  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: #000;
+/*  background: #000000;   fallback for old browsers */
+/*  background: -webkit-linear-gradient(to right, #434343, #000000);   Chrome 10-25, Safari 5.1-6    */
+/*  background: linear-gradient(to right, #434343, #000000);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 }
 .et-hero-tabs-container--top {
@@ -68,14 +66,15 @@ a {
   -webkit-box-flex: 3;
           flex: 3;
   color: #fff;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.2rem;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
   font-size: 12px !important;
 }
 .et-hero-tab:hover {
   color: white;
-  background: rgba(102, 177, 241, 0.8);
+  background: crimson;
+  border-radius: 45px;
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
@@ -84,7 +83,7 @@ a {
   position: absolute;
   bottom: 0;
   width: 0;
-  height: 8px;
+  height: 5px;
   background: #eee;
   -webkit-transition: left 0.3s ease;
   transition: left 0.3s ease;
@@ -103,4 +102,106 @@ a {
   .et-hero-tab {
     font-size: 1rem;
   }
+}
+#navbar_button{
+    width: 125px;
+    height: 40px;
+    border-radius: 15px;
+}
+a.animated-button_navbar:link, a.animated-button_navbar:visited {
+	position: relative;
+	display: block;
+	margin: 30px auto 0;
+	padding: 14px 15px;
+	color: #000;
+    background: #fff;
+	font-size:14px;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	border-radius: 3;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+a.animated-button_navbar:link:after, a.animated-button_navbar:visited:after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	left: 50%;
+	top: 50%;
+	width: 50%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+a.animated-button_navbar:link:hover, a.animated-button_navbar:visited:hover {
+	color: #FFF;
+	text-shadow: none;
+}
+a.animated-button_navbar:link:hover:after, a.animated-button_navbar:visited:hover:after {
+	height: 45%;
+}
+a.animated-button_navbar:link, a.animated-button_navbar:visited {
+	position: relative;
+	display: block;
+	margin: 14px auto 0;
+	padding: 10px 15px;
+    margin-right: 10px;
+	color: #fff;
+	font-size:14px;
+	border-radius: 3;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	letter-spacing: .08em;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.2), 0 1px 0 rgba(0, 0, 0, 0.2);
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+a.animated-button_navbar.thar-three-navbar {
+	color: #000;
+	cursor: pointer;
+	display: block;
+	position: relative;
+	border: 2px solid #000;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
+}
+a.animated-button_navbar.thar-three-navbar:hover {
+	color: #fff !important;
+	background-color: transparent;
+	text-shadow: nthree;
+    border: 2px solid #fff;
+}
+a.animated-button_navbar.thar-three-navbar:hover:before {
+	left: 0%;
+	right: auto;
+	width: 100%;
+}
+a.animated-button_navbar.thar-three-navbar:before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 0px;
+	z-index: -1;
+	content: '';
+	color: #000 !important;
+	background: crimson;
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+0s;
 }
