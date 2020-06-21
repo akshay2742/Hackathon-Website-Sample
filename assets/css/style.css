@@ -27,7 +27,7 @@ body::-webkit-scrollbar-thumb {
     height: 700px;
 }
 .section_height_timeline{
-    height: 900px;
+    height: 2100px;
 }
 #timer{
   padding-right: 100px;
@@ -59,6 +59,9 @@ body::-webkit-scrollbar-thumb {
     color: crimson;
 }
 .fa-globe{
+    color: crimson;
+}
+.fa-linkedin-square{
     color: crimson;
 }
 #nav-image{
@@ -224,4 +227,47 @@ a.animated-button.thar-three:before {
 /* END */
 .telegram_widget{
     overflow: hidden;
+}
+.sponsor_image_title{
+    width: 80%;
+}
+.title_sponsor_space_top{
+    margin-top: 20px;
+}
+.footer_spacing{
+    padding-top: 30px;
+}
+.footer_height{
+    height: 400px;
+}
+#footer{
+    position: sticky;
+    background: #000;
+}
+.footer_logo{
+    width: 100%;
+}
+.footer_heading{
+    color: crimson;
+    font-family:'Fira Code',monospace;
+    font-size: 22px;
+    margin-top: 74px;
+    font-weight: 700;
+}
+.footer_para{
+    font-size: 15px;
+    font-family: 'Fira Code',monospace;
+    color: #eee;
+    margin-top: 20px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+.developer_row{
+    margin-top: 30px;
+    height: 20px;
+}
+.developer_name{
+    font-family: 'Fira Code',monospace;
+    color: #eee;
+    font-weight: 700;
 }

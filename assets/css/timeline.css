@@ -127,7 +127,7 @@ header .logo > span {
 #timeline .timeline-item .timeline-icon svg {
   position: relative;
   top: 14px;
-  left: 13px;
+  left: 14px;
 }
 #timeline .timeline-item .timeline-content {
   width: 40%;
@@ -246,4 +246,13 @@ header .logo > span {
 }
 .timeline_vectors{
     width: 15%;
+}
+.timeline_para{
+    justify-content: center;
+    font-family: 'Fira Code', monospace;
+    font-size: 20px;
+    font-weight: 600;
+    color: #eee;
+    margin: -6px;
+    margin-top: 5px;
 }

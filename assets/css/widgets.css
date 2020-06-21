@@ -63,3 +63,7 @@
 .back {
   transform: rotateY(180deg);
 }
+.widget_text{
+    font-family: 'Fira Code',monospace;
+    font-size: 15px;
+}

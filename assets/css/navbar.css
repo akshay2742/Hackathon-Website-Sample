@@ -88,6 +88,9 @@ a {
   -webkit-transition: left 0.3s ease;
   transition: left 0.3s ease;
 }
+et-her-tab:visited{
+    color: crimson
+}
 
 @media (min-width: 800px) {
   .et-hero-tabs h1,
